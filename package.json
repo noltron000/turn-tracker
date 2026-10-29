@@ -55,7 +55,9 @@
 		"build": "tsc -p tsconfig.build.json",
 		"prepublishOnly": "yarn build"
 	},
-	"dependencies": { },
+	"dependencies": {
+		"json5": "^2.2.3"
+	},
 	"devDependencies": {
 		"@types/node": "^26.6",
 		"node": "^26.12",
