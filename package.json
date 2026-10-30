@@ -1,20 +1,29 @@
 {
-	"name": "roleplayer",
-	"private": true,
+	"name": "noltron000/turn-tracker",
+	"private": false,
 	"license": "MIT",
-	"version": "0.0.1",
-	"description": "An online-centered table-top roleplaying game.",
+	"version": "0.0.2",
+	"description": "An advanced turn-tracker class. It is useful for games in particular, but has a wide variety of other applications.",
 	"keywords": [
-		"roleplaying game"
+		"turn",
+		"turns",
+		"turn tracker",
+		"game",
+		"board game",
+		"video game",
+		"web game",
+		"round",
+		"rounds",
+		"round tracker"
 	],
-	"homepage": "https://github.com/noltron000/roleplaying-game#readme",
+	"homepage": "https://github.com/noltron000/turn-tracker#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/noltron000/roleplaying-game.git"
+		"url": "git+https://github.com/noltron000/turn-tracker.git"
 	},
 	"bugs": {
 		"email": "noltron000@gmail.com",
-		"url": "https://github.com/noltron000/roleplaying-game/issues"
+		"url": "https://github.com/noltron000/turn-tracker/issues"
 	},
 	"author": {
 		"name": "Nolan Kovacik",
@@ -55,7 +64,9 @@
 		"build": "tsc -p tsconfig.build.json",
 		"prepublishOnly": "yarn build"
 	},
-	"dependencies": { },
+	"dependencies": {
+		"json5": "^2.2.3"
+	},
 	"devDependencies": {
 		"@types/node": "^26.6",
 		"node": "^26.12",
